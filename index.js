@@ -155,7 +155,7 @@ const page = {
       .join("");
 
     utils.pageContent(
-      "Paramétrage <i id='reboot' class='fas fa-undo'></i>",
+      "Yoga Routine : Paramétrage <i id='reboot' class='fas fa-undo'></i>",
       "<ul>" + mapArray + "</ul>",
       "<button id='start'>Commencer<i class='far fa-play-circle'></i></button>"
     );
@@ -169,12 +169,12 @@ const page = {
   routine: function () {
     const exercice = new Exercice();
 
-    utils.pageContent("Routine", exercice.updateCountdown(), null);
+    utils.pageContent("Yoga Routine", exercice.updateCountdown(), null);
   },
 
   finish: function () {
     utils.pageContent(
-      "C'est terminé !",
+      "C'est terminé bien joué !",
       "<button id='start'>Recommencer</button>",
       "<button id='reboot' class='btn-reboot'>Réinintialiser <i class='fas fa-times-circle'></i></button>"
     );
