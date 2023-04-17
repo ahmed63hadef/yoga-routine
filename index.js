@@ -176,7 +176,7 @@ const page = {
     utils.pageContent(
       "C'est terminé bien joué !",
       "<button id='start'>Recommencer</button>",
-      "<button id='reboot' class='btn-reboot'>Réinintialiser <i class='fas fa-times-circle'></i></button>"
+      "<button id='reboot' class='btn-reboot'>Réinintialiser les paramètres <i class='fas fa-times-circle'></i></button>"
     );
     start.addEventListener("click", () => this.routine());
     reboot.addEventListener("click", () => utils.reboot());
